@@ -2139,6 +2139,7 @@ main(int argc, char *argv[]) {
 	checkotherwm();
 	setup();
 	scan();
+	system("[ -e ~/.dwm/autostart.sh ] && bash ~/.dwm/autostart.sh &");
 	run();
 	cleanup();
 	XCloseDisplay(dpy);

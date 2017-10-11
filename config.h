@@ -59,7 +59,7 @@ static const Layout layouts[] = {
 static const char *dmenucmd[] = { "dmenu_run", "-fn", font, "-nb", normbgcolor, "-nf", normfgcolor, "-sb", selbgcolor, "-sf", selfgcolor, NULL };
 static const char *termcmd[]  = { "uxterm", NULL };
 
-static const char *chcmd[]  = { "/home/lonli/bin/ch.sh", NULL };
+static const char *chcmd[]  = { "/home/lonli/bin/channel.sh", NULL };
 
 static Key keys[] = {
 	/* modifier                     key        function        argument */
